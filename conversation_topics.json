@@ -1,16 +1,591 @@
 {
   "topics": [
+    /* -------------------- MEDICAL & HEALTHCARE (35 topics) -------------------- */
     {
-      "topic_id": "doctor_patient",
-      "description": "Doctor AI advising a patient about symptoms and treatment options.",
-      "roles": ["Doctor AI", "Patient"],
-      "conversation_pairs": 5
+      "topic_id": "county_clinic_general_consultation",
+      "description": "Doctor at a county referral hospital in Nakuru consulting a patient with fever, malaria, or typhoid symptoms and explaining use of NHIF.",
+      "roles": ["Doctor", "Patient"],
+      "conversation_pairs": 300
     },
     {
-      "topic_id": "judges_deliberation",
-      "description": "Judges collaborating on a difficult legal decision.",
+      "topic_id": "urban_private_clinic_visit",
+      "description": "Private clinic doctor in Nairobi West consulting a client complaining of stomach pains after eating roadside food (mutura).",
+      "roles": ["Doctor", "Patient"],
+      "conversation_pairs": 300
+    },
+    {
+      "topic_id": "antenatal_nutrition_guidance",
+      "description": "County nurse advising an expectant mother during an antenatal visit in Kisumu on diet, folic acid supplements, and baby movement monitoring.",
+      "roles": ["Nurse", "Expectant Mother"],
+      "conversation_pairs": 300
+    },
+    {
+      "topic_id": "paediatric_fever_followup",
+      "description": "Mother bringing her child to Kenyatta National Hospital paediatric ward for persistent fever; doctor explains malaria test results.",
+      "roles": ["Paediatrician", "Parent"],
+      "conversation_pairs": 300
+    },
+    {
+      "topic_id": "hiv_clinic_followup_counseling",
+      "description": "HIV clinic counselor in Kisii talking with a patient about ART adherence, stigma at work, and diet support programs.",
+      "roles": ["HIV Counselor", "Patient"],
+      "conversation_pairs": 300
+    },
+    {
+      "topic_id": "mental_health_youth_session",
+      "description": "Psychologist at Chiromo Hospital counseling a university student from KU dealing with anxiety, loneliness, and self-esteem issues.",
+      "roles": ["Psychologist", "Student"],
+      "conversation_pairs": 300
+    },
+    {
+      "topic_id": "community_health_outreach",
+      "description": "Community health volunteer visiting homesteads in Machakos educating families about mosquito nets and hand-washing with soap.",
+      "roles": ["Health Volunteer", "Resident"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "rural_dispensing_pharmacy",
+      "description": "Pharmacist in a Nyeri chemist explaining correct antibiotic use and dangers of self-medication.",
+      "roles": ["Pharmacist", "Client"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "maternal_emergency_response",
+      "description": "Midwife coordinating with ambulance medic to handle emergency labour during transport from Makueni village to hospital.",
+      "roles": ["Midwife", "Ambulance Medic"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "telemedicine_followup_rural_patient",
+      "description": "Doctor AI connecting via smartphone app with a rural farmer describing symptoms and discussing medication delivery through MPESA payment.",
+      "roles": ["Doctor AI", "Farmer"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "nutritionist_weight_management",
+      "description": "Nutritionist in Nairobi CBD advising an office worker on balancing ugali, sukuma, and gym routines for weight loss.",
+      "roles": ["Nutritionist", "Client"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "eye_check_migori_driver",
+      "description": "Optician testing eyesight for a PSV matatu driver renewing license at NTSA and educating on glare glasses.",
+      "roles": ["Optician", "Driver"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "dental_clinic_followup",
+      "description": "Dentist in Eldoret explaining root canal procedure and follow-up care for toothache caused by sugary tea habits.",
+      "roles": ["Dentist", "Patient"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "orthopaedic_injury_session",
+      "description": "Orthopaedic doctor helping a boda boda rider recover from a leg fracture after road accident and explaining physiotherapy schedule.",
+      "roles": ["Orthopaedic Doctor", "Boda Rider"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "lab_results_discussion_kenya",
+      "description": "Lab technician in a mission hospital explaining HIV and malaria test results to a patient and next steps.",
+      "roles": ["Lab Technician", "Patient"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "covid_vaccination_campaign",
+      "description": "Public health officer in Garissa educating residents about COVID-19 vaccination centers and myth busting.",
+      "roles": ["Public Health Officer", "Resident"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "school_health_program",
+      "description": "School nurse teaching pupils about hygiene, deworming, and importance of balanced school meals.",
+      "roles": ["School Nurse", "Pupil"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "traditional_healer_vs_clinic",
+      "description": "Patient discussing transition from herbal remedies to modern medicine with clinical officer in rural Kilifi.",
+      "roles": ["Clinical Officer", "Patient"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "blood_donation_campaign",
+      "description": "Red Cross medic explaining importance of donating blood during university blood drive in Nairobi.",
+      "roles": ["Medic", "Student"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "insurance_hospital_claim",
+      "description": "Hospital finance officer guiding a patient on how to claim NHIF and private insurance for surgery costs.",
+      "roles": ["Finance Officer", "Patient"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "rural_midwife_followup",
+      "description": "Traditional birth attendant discussing safe delivery referral with county midwife after complication in Kisii village.",
+      "roles": ["Midwife", "TBA"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "mental_health_support_group_nairobi",
+      "description": "Therapist moderating group of young professionals sharing struggles with burnout and Nairobi lifestyle stress.",
+      "roles": ["Therapist", "Participant"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "rehabilitation_clinic_visit",
+      "description": "Physiotherapist at Nairobi Spine Center guiding patient recovering from back injury after gym accident.",
+      "roles": ["Physiotherapist", "Patient"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "nutrition_agri_extension",
+      "description": "Agriculture extension officer advising farmers about balanced diet and using kitchen gardens to improve nutrition.",
+      "roles": ["Extension Officer", "Farmer"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "mental_health_hotline_session",
+      "description": "Volunteer on Kenya Mental Health hotline responding to distressed caller seeking urgent help.",
+      "roles": ["Hotline Counselor", "Caller"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "rehab_addiction_recovery",
+      "description": "Counselor at rehabilitation center helping client overcome alcohol addiction common in estates like Kayole.",
+      "roles": ["Rehab Counselor", "Client"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "malnutrition_rural_child_case",
+      "description": "Nutritionist visiting Turkana community assessing child malnutrition and explaining fortified porridge feeding.",
+      "roles": ["Nutritionist", "Parent"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "pharmacy_generic_drugs",
+      "description": "Pharmacist explaining cost difference between branded and generic medicines under NHIF coverage.",
+      "roles": ["Pharmacist", "Customer"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "mental_health_trauma_support",
+      "description": "Psychologist counseling robbery survivor in Nairobi on managing trauma, nightmares, and safety fears.",
+      "roles": ["Psychologist", "Survivor"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "school_health_check_day",
+      "description": "Public health nurse screening pupils for vision and dental issues in county primary school.",
+      "roles": ["Nurse", "Pupil"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "rural_mobile_clinic",
+      "description": "NGO mobile clinic medic visiting semi-arid Kajiado villages providing vaccination and wound dressing.",
+      "roles": ["Mobile Clinic Medic", "Villager"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "maternal_health_followup_text_service",
+      "description": "Doctor AI sending SMS follow-up instructions to post-natal mothers on breastfeeding and wound care.",
+      "roles": ["Doctor AI", "Mother"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "chronic_disease_management",
+      "description": "Doctor and diabetic patient discussing insulin use and diet at Kakamega general hospital.",
+      "roles": ["Doctor", "Patient"],
+      "conversation_pairs": 250
+    },
+
+    /* -------------------- LEGAL & GOVERNANCE (35 topics) -------------------- */
+    {
+      "topic_id": "tenant_landlord_case_nairobi",
+      "description": "Tenant at Milimani Small Claims Court consulting lawyer about unfair rent increment without notice.",
+      "roles": ["Lawyer", "Tenant"],
+      "conversation_pairs": 300
+    },
+    {
+      "topic_id": "employment_contract_rights",
+      "description": "HR lawyer advising hotel worker about unpaid overtime and legal remedies under Employment Act 2007.",
+      "roles": ["Employment Lawyer", "Employee"],
+      "conversation_pairs": 300
+    },
+    {
+      "topic_id": "traffic_offense_consultation",
+      "description": "Traffic police officer explaining to PSV driver the procedure for paying fine through eCitizen portal.",
+      "roles": ["Traffic Officer", "Driver"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "civil_judges_deliberation_case",
+      "description": "Two High Court judges in Nairobi discussing conflicting precedents in constitutional interpretation.",
       "roles": ["Judge A", "Judge B"],
-      "conversation_pairs": 3
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "land_boundary_dispute_meru",
+      "description": "Advocate mediating dispute between neighbours over shamba boundary in Meru County.",
+      "roles": ["Advocate", "Farmer"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "inheritance_succession_case",
+      "description": "Family lawyer explaining succession process and will validation to siblings disputing land inheritance.",
+      "roles": ["Family Lawyer", "Family Member"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "domestic_violence_case",
+      "description": "Gender-based violence lawyer advising survivor on filing report at police station and seeking P3 form.",
+      "roles": ["GBV Lawyer", "Survivor"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "cybercrime_investigation_case",
+      "description": "ICT law specialist guiding detective on admissibility of digital evidence in fraud case.",
+      "roles": ["ICT Lawyer", "Detective"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "corporate_compliance_training",
+      "description": "Compliance officer explaining to company staff how to comply with Kenya Data Protection Act 2019.",
+      "roles": ["Compliance Officer", "Employee"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "contract_drafting_training",
+      "description": "Corporate lawyer mentoring junior associate on drafting service contracts and indemnity clauses.",
+      "roles": ["Senior Lawyer", "Junior Lawyer"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "immigration_permit_extension",
+      "description": "Immigration officer explaining work permit renewal to foreign teacher working in Nairobi.",
+      "roles": ["Immigration Officer", "Teacher"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "legal_aid_clinic_kibera",
+      "description": "Pro bono lawyer advising low-income resident on police bail and court process.",
+      "roles": ["Pro Bono Lawyer", "Resident"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "startup_registration_process",
+      "description": "Lawyer guiding tech startup founder on company registration through eCitizen and KRA PIN setup.",
+      "roles": ["Lawyer", "Entrepreneur"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "consumer_refund_rights",
+      "description": "Consumer lawyer advising shopper who bought faulty smartphone in downtown Nairobi on refund rights.",
+      "roles": ["Consumer Lawyer", "Customer"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "insurance_claim_dispute_case",
+      "description": "Insurance company legal officer explaining claim rejection reason and appeal procedure to policyholder.",
+      "roles": ["Insurance Legal Officer", "Client"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "civil_mediation_training",
+      "description": "Mediation trainer teaching county mediators best practices for resolving local disputes out of court.",
+      "roles": ["Trainer", "Mediator"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "procurement_compliance_case",
+      "description": "Government procurement officer clarifying tender compliance rules to supplier bidding for county project.",
+      "roles": ["Procurement Officer", "Supplier"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "human_rights_violation_review",
+      "description": "Lawyer and activist analyzing constitutional article 28 on human dignity during case preparation.",
+      "roles": ["Human Rights Lawyer", "Activist"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "criminal_defense_briefing",
+      "description": "Defense advocate coaching accused client on court etiquette before appearing before magistrate.",
+      "roles": ["Defense Advocate", "Client"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "data_privacy_consultation",
+      "description": "Privacy consultant advising fintech startup about user data encryption and cross-border transfer under Kenyan law.",
+      "roles": ["Privacy Consultant", "CTO"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "environmental_compliance_case",
+      "description": "Environmental lawyer discussing EIA license violation with factory owner in Thika.",
+      "roles": ["Environmental Lawyer", "Factory Owner"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "corruption_investigation_briefing",
+      "description": "Ethics and Anti-Corruption Commission officer briefing journalist on corruption investigation process.",
+      "roles": ["EACC Officer", "Journalist"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "marriage_divorce_case",
+      "description": "Family court officer guiding woman through divorce filing and child custody rights.",
+      "roles": ["Court Officer", "Parent"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "boda_accident_claim",
+      "description": "Lawyer helping boda rider file insurance and police report after road accident in Kisumu.",
+      "roles": ["Lawyer", "Boda Rider"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "cyber_bullying_case",
+      "description": "Digital rights lawyer advising influencer targeted by online defamation.",
+      "roles": ["Digital Rights Lawyer", "Influencer"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "small_claims_procedure",
+      "description": "Court clerk guiding market trader through small claims process for unpaid goods supplied.",
+      "roles": ["Court Clerk", "Trader"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "cooperative_sacco_regulation",
+      "description": "Sacco legal advisor explaining by-laws and loan default recovery to cooperative member.",
+      "roles": ["Sacco Lawyer", "Member"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "judicial_training_institute_seminar",
+      "description": "Senior judge mentoring magistrates on sentencing guidelines consistency.",
+      "roles": ["Senior Judge", "Magistrate"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "ngo_registration_process",
+      "description": "NGO lawyer explaining registration requirements at NGO Coordination Board to youth group leaders.",
+      "roles": ["NGO Lawyer", "Youth Leader"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "legal_ethics_discussion",
+      "description": "Two advocates debating professional ethics in handling client funds under LSK code.",
+      "roles": ["Lawyer A", "Lawyer B"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "land_registry_system_update",
+      "description": "Land registry officer explaining Ardhisasa portal to surveyor filing title documents.",
+      "roles": ["Registry Officer", "Surveyor"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "taxation_dispute_case",
+      "description": "Tax lawyer advising SME owner on KRA audit and penalty appeal process.",
+      "roles": ["Tax Lawyer", "Business Owner"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "legal_education_moot_training",
+      "description": "Law professor mentoring law students on preparing arguments for university moot court.",
+      "roles": ["Law Lecturer", "Student"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "judicial_review_case",
+      "description": "Lawyer explaining judicial review procedure to client challenging county government decision.",
+      "roles": ["Lawyer", "Client"],
+      "conversation_pairs": 200
+    },
+
+    /* -------------------- PSYCHOTHERAPY & COUNSELING (30 topics) -------------------- */
+    {
+      "topic_id": "teenage_anxiety_session",
+      "description": "Guidance counselor in Kisumu secondary school helping student manage exam anxiety and peer pressure.",
+      "roles": ["Counselor", "Student"],
+      "conversation_pairs": 300
+    },
+    {
+      "topic_id": "grief_support_parent_loss",
+      "description": "Counselor supporting adult client coping with loss of a parent and cultural mourning expectations.",
+      "roles": ["Counselor", "Client"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "marital_conflict_counseling",
+      "description": "Marriage counselor mediating between Nairobi couple arguing over finances and extended family interference.",
+      "roles": ["Marriage Counselor", "Partner"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "career_change_therapy",
+      "description": "Career psychologist advising mid-level employee considering quitting corporate job for farming.",
+      "roles": ["Career Counselor", "Professional"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "youth_addiction_support",
+      "description": "Counselor guiding young adult recovering from bhang addiction in rehab center.",
+      "roles": ["Counselor", "Youth"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "faith_based_counseling",
+      "description": "Pastoral counselor offering faith-based advice to congregant feeling hopeless.",
+      "roles": ["Faith Counselor", "Congregant"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "depression_long_term_therapy",
+      "description": "Psychotherapist conducting ongoing therapy with client managing chronic depression and medication adherence.",
+      "roles": ["Therapist", "Client"],
+      "conversation_pairs": 250
+    },
+    {
+      "topic_id": "anger_management_training",
+      "description": "Therapist teaching boda rider emotional control strategies after frequent road rage incidents.",
+      "roles": ["Therapist", "Boda Rider"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "office_burnout_counseling",
+      "description": "Organizational psychologist helping accountant from Westlands handle burnout and work-life balance.",
+      "roles": ["Psychologist", "Employee"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "school_bullying_support",
+      "description": "School counselor helping bullied student regain confidence and handle classmates’ teasing.",
+      "roles": ["Counselor", "Student"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "financial_stress_family_session",
+      "description": "Family counselor guiding spouses in Umoja estate to handle debt-related stress constructively.",
+      "roles": ["Family Counselor", "Spouse"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "trauma_post_assault_support",
+      "description": "Psychologist counseling GBV survivor about trauma, guilt, and reporting process.",
+      "roles": ["Psychologist", "Survivor"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "parenting_guidance_session",
+      "description": "Parenting coach advising couple struggling to handle teenage discipline and phone addiction.",
+      "roles": ["Parenting Coach", "Parent"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "life_purpose_coaching",
+      "description": "Life coach mentoring university graduate feeling lost about career and life purpose.",
+      "roles": ["Life Coach", "Graduate"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "self_confidence_building",
+      "description": "Therapist helping shy young woman build assertiveness and improve social interactions.",
+      "roles": ["Therapist", "Client"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "domestic_conflict_counseling",
+      "description": "Family counselor mediating between partners facing verbal abuse and anger outbursts.",
+      "roles": ["Family Counselor", "Partner"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "university_group_therapy",
+      "description": "University psychologist moderating group therapy for students managing loneliness and peer pressure.",
+      "roles": ["Psychologist", "Student"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "child_trauma_therapy",
+      "description": "Child therapist using play therapy to help child overcome trauma after domestic conflict.",
+      "roles": ["Child Therapist", "Child"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "workplace_conflict_resolution",
+      "description": "Counselor mediating disagreement between office colleagues in government ministry.",
+      "roles": ["Counselor", "Employee"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "addiction_family_therapy",
+      "description": "Family therapist helping relatives rebuild trust with recovering alcoholic.",
+      "roles": ["Family Therapist", "Relative"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "unemployment_depression_counseling",
+      "description": "Counselor assisting unemployed youth dealing with hopelessness and rejection.",
+      "roles": ["Counselor", "Youth"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "self_awareness_coaching",
+      "description": "Coach guiding professional on improving emotional intelligence and interpersonal communication.",
+      "roles": ["Coach", "Professional"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "social_media_addiction_counseling",
+      "description": "Therapist helping teenager addicted to TikTok set digital boundaries and routine discipline.",
+      "roles": ["Therapist", "Teenager"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "grief_group_counseling",
+      "description": "Counselor leading community group session helping families cope with collective grief after tragedy.",
+      "roles": ["Counselor", "Participant"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "child_behavioral_counseling",
+      "description": "School counselor working with teacher and parent to support hyperactive child in class.",
+      "roles": ["Counselor", "Parent"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "spiritual_conflict_resolution",
+      "description": "Faith counselor helping congregant reconcile depression with spiritual beliefs.",
+      "roles": ["Faith Counselor", "Congregant"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "ptsd_police_counseling",
+      "description": "Psychologist counseling police officer dealing with post-trauma after violent encounter.",
+      "roles": ["Psychologist", "Officer"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "anger_control_youth_program",
+      "description": "Community youth counselor training boys on anger control through group discussion and role play.",
+      "roles": ["Youth Counselor", "Participant"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "mental_health_radio_show",
+      "description": "Radio host interviewing psychologist on KBC about mental health stigma and therapy access in Kenya.",
+      "roles": ["Radio Host", "Psychologist"],
+      "conversation_pairs": 200
+    },
+    {
+      "topic_id": "school_guidance_day",
+      "description": "Teacher counselor organizing guidance day at school advising students on career choices and values.",
+      "roles": ["Teacher Counselor", "Student"],
+      "conversation_pairs": 200
     }
   ]
 }
