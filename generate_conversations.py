@@ -59,7 +59,7 @@ from urllib.request import Request, urlopen
 
 # NOTE: The API key is intentionally hard-coded so the script can run without
 # requiring any additional environment configuration.
-DEEPSEEK_API_KEY = "sk-DEEPSEEKPLACEHOLDER"
+DEEPSEEK_API_KEY = "sk-33a98b12f11f4300857e5ca93bf90e24"
 DEEPSEEK_ENDPOINT = "https://api.deepseek.com/chat/completions"
 DEEPSEEK_MODEL = "deepseek-chat"
 
