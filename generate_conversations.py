@@ -214,9 +214,64 @@ class DeepSeekClient:
         return messages
 
 
+def _strip_json_comments(raw_text: str) -> str:
+    """Remove ``//`` and ``/* ... */`` style comments from JSON content."""
+
+    result_chars: List[str] = []
+    in_string = False
+    string_delim = ""
+    idx = 0
+    length = len(raw_text)
+
+    while idx < length:
+        char = raw_text[idx]
+
+        if in_string:
+            result_chars.append(char)
+            if char == "\\":
+                # Preserve escape sequences inside strings by skipping the next character.
+                idx += 1
+                if idx < length:
+                    result_chars.append(raw_text[idx])
+            elif char == string_delim:
+                in_string = False
+                string_delim = ""
+        else:
+            if char in {'"', "'"}:
+                in_string = True
+                string_delim = char
+                result_chars.append(char)
+            elif char == "/" and idx + 1 < length:
+                next_char = raw_text[idx + 1]
+                if next_char == "/":
+                    # Skip to the end of the line for ``//`` comments.
+                    idx += 2
+                    while idx < length and raw_text[idx] not in {"\n", "\r"}:
+                        idx += 1
+                    continue
+                if next_char == "*":
+                    # Skip everything until the closing ``*/`` for block comments.
+                    idx += 2
+                    while idx + 1 < length and not (
+                        raw_text[idx] == "*" and raw_text[idx + 1] == "/"
+                    ):
+                        idx += 1
+                    idx += 2
+                    continue
+                result_chars.append(char)
+            else:
+                result_chars.append(char)
+
+        idx += 1
+
+    return "".join(result_chars)
+
+
 def load_topics(config_path: Path) -> List[TopicConfig]:
     with config_path.open("r", encoding="utf-8") as fh:
-        payload = json.load(fh)
+        raw_text = fh.read()
+
+    payload = json.loads(_strip_json_comments(raw_text))
 
     topics = payload.get("topics")
     if not isinstance(topics, list) or not topics:
@@ -266,7 +321,9 @@ def generate_dataset(
     jobs = list(iter_conversation_jobs(topics))
     random.shuffle(jobs)
 
-    LOGGER.info("Generating %s conversations", len(jobs))
+    total_jobs = len(jobs)
+    LOGGER.info("Generating %s conversations", total_jobs)
+    completed = 0
 
     with output_path.open("w", encoding="utf-8") as output_fh:
         with ThreadPoolExecutor(max_workers=concurrency) as executor:
@@ -310,6 +367,13 @@ def generate_dataset(
                         write_conversation(
                             output_fh, conversation_id, topic.topic_id, conversation
                         )
+                        completed += 1
+                        LOGGER.info(
+                            "[%s] %s/%s",
+                            topic.topic_id,
+                            completed,
+                            total_jobs,
+                        )
                     elif conversation is not None:
                         LOGGER.error(
                             "Conversation %s for topic '%s' returned %s turns instead of %s",
@@ -317,6 +381,21 @@ def generate_dataset(
                             topic.topic_id,
                             len(conversation),
                             num_turns,
+                        )
+                        completed += 1
+                        LOGGER.info(
+                            "[%s] %s/%s (failed)",
+                            topic.topic_id,
+                            completed,
+                            total_jobs,
+                        )
+                    else:
+                        completed += 1
+                        LOGGER.info(
+                            "[%s] %s/%s (failed)",
+                            topic.topic_id,
+                            completed,
+                            total_jobs,
                         )
 
                     try:
