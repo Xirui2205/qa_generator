@@ -52,7 +52,9 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
 
-import requests
+import socket
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
 
 
 # NOTE: The API key is intentionally hard-coded so the script can run without
@@ -117,18 +119,28 @@ class DeepSeekClient:
             "Content-Type": "application/json",
         }
 
+        body = json.dumps(payload).encode("utf-8")
+
         for attempt in range(1, self.max_retries + 1):
             try:
-                response = requests.post(
+                request = Request(
                     DEEPSEEK_ENDPOINT,
+                    data=body,
                     headers=headers,
-                    timeout=self.timeout,
-                    json=payload,
+                    method="POST",
                 )
-                response.raise_for_status()
-                content = response.json()["choices"][0]["message"]["content"]
+                with urlopen(request, timeout=self.timeout) as response:
+                    response_text = response.read().decode("utf-8")
+                parsed = json.loads(response_text)
+                content = parsed["choices"][0]["message"]["content"]
                 return self._parse_response(content, topic, num_turns)
-            except Exception as exc:  # noqa: BLE001 - broad to cover HTTP/JSON errors
+            except (
+                HTTPError,
+                URLError,
+                socket.timeout,
+                json.JSONDecodeError,
+                KeyError,
+            ) as exc:
                 LOGGER.warning(
                     "DeepSeek request failed (attempt %s/%s): %s",
                     attempt,
