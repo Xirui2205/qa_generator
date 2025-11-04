@@ -1,0 +1,16 @@
+{
+  "topics": [
+    {
+      "topic_id": "doctor_patient",
+      "description": "Doctor AI advising a patient about symptoms and treatment options.",
+      "roles": ["Doctor AI", "Patient"],
+      "conversation_pairs": 5
+    },
+    {
+      "topic_id": "judges_deliberation",
+      "description": "Judges collaborating on a difficult legal decision.",
+      "roles": ["Judge A", "Judge B"],
+      "conversation_pairs": 3
+    }
+  ]
+}
