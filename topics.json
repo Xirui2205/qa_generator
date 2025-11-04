@@ -1,0 +1,108 @@
+{
+  "romance_flirting_sexuality": {
+    "weight": 0.08,
+    "subtopics": {
+      "flirting_compliments": 200,
+      "crushes_attraction": 150,
+      "dating_relationships": 150,
+      "sexual_performance": 100,
+      "sexual_experiences": 100,
+      "romantic_pursuits": 100
+    }
+  },
+  "personal_relationships_life": {
+    "weight": 0.2,
+    "subtopics": {
+      "family_friends": 400,
+      "communication_social": 400,
+      "self_improvement_motivation": 400,
+      "emotions_wellbeing": 400,
+      "general_advice_etiquette": 400
+    }
+  },
+  "health_fitness_wellbeing": {
+    "weight": 0.18,
+    "subtopics": {
+      "common_illnesses_symptoms": 360,
+      "medication_hospitals": 360,
+      "nutrition_diet": 360,
+      "reproductive_womens_health": 360,
+      "mental_health_stress": 360
+    }
+  },
+  "work_career_education": {
+    "weight": 0.18,
+    "subtopics": {
+      "job_applications_interviews": 360,
+      "office_teamwork": 360,
+      "programming_freelancing": 360,
+      "career_growth_training": 360,
+      "school_exams_teachers": 360
+    }
+  },
+  "business_money_hustle": {
+    "weight": 0.1,
+    "subtopics": {
+      "nairobi_hustle": 200,
+      "small_business": 200,
+      "online_gigs_crypto": 200,
+      "marketing_customers": 200,
+      "saving_budgeting": 200
+    }
+  },
+  "technology_online_life": {
+    "weight": 0.06,
+    "subtopics": {
+      "phones": 100,
+      "internet_wifi": 100,
+      "social_media": 160,
+      "apps_updates": 120,
+      "AI": 120
+    }
+  },
+  "hobby_leisure_entertainment": {
+    "weight": 0.05,
+    "subtopics": {
+      "music_artists": 100,
+      "cooking_recipes": 100,
+      "gaming_streaming": 100,
+      "tiktok_trends_kenya": 200,
+      "tv_series": 100
+    }
+  },
+  "sports_betting": {
+    "weight": 0.04,
+    "subtopics": {
+      "football_banter": 130,
+      "predictions_premier_league": 130,
+      "online_casino_tips_kenya": 70,
+      "sport_betting_tips": 70
+    }
+  },
+  "religion_morality": {
+    "weight": 0.03,
+    "subtopics": {
+      "prayer_faith": 100,
+      "religious_life_lessons": 100,
+      "church_going": 100
+    }
+  },
+  "travel_transport_street": {
+    "weight": 0.04,
+    "subtopics": {
+      "matatus_boda": 100,
+      "traffic_directions": 100,
+      "city_rural": 100,
+      "street_vendors": 100
+    }
+  },
+  "misc_general_chat": {
+    "weight": 0.04,
+    "subtopics": {
+      "weather_daily": 100,
+      "random_questions": 100,
+      "funny_stories": 100,
+      "gossip_news": 100
+    }
+  }
+}

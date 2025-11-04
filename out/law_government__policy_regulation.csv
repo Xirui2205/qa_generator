@@ -1,0 +1,315 @@
+domain,subtopic,sentence
+law_government,policy_regulation,"""The Constitution of Kenya 2010 established a comprehensive framework for policy and regulation across all government sectors."
+law_government,policy_regulation,This supreme law mandates that all state organs develop policies aligned with constitutional principles.
+law_government,policy_regulation,Regulatory bodies must operate within this constitutional framework while developing sector-specific guidelines.
+law_government,policy_regulation,"The constitution particularly emphasizes public participation in policy formulation processes."","
+law_government,policy_regulation,"""The National Assembly plays a crucial role in policy regulation through legislative oversight."
+law_government,policy_regulation,"Members of Parliament debate and pass bills that become Acts of Parliament, forming the legal basis for regulations."
+law_government,policy_regulation,Parliamentary committees regularly review implementation of existing policies.
+law_government,policy_regulation,This legislative oversight ensures policies remain relevant and effective.
+law_government,policy_regulation,"""The Senate regulates intergovernmental relations and county government policies under the devolved system."
+law_government,policy_regulation,It ensures that county legislation aligns with national legislation and constitutional provisions.
+law_government,policy_regulation,The Senate mediates conflicts between national and county governments regarding policy implementation.
+law_government,policy_regulation,This bicameral approach maintains policy coherence across governance levels.
+law_government,policy_regulation,"""The Office of the Attorney General provides legal advice to government departments on policy formulation."
+law_government,policy_regulation,This office ensures all proposed policies comply with existing laws and constitutional requirements.
+law_government,policy_regulation,The Attorney General represents the government in policy-related litigation.
+law_government,policy_regulation,Legal scrutiny at this stage prevents future constitutional challenges.
+law_government,policy_regulation,"""The Judiciary interprets and enforces policy regulations through court rulings."
+law_government,policy_regulation,Courts determine the constitutionality of policies and regulations when challenged.
+law_government,policy_regulation,Judicial review serves as a check on executive and legislative policy-making powers.
+law_government,policy_regulation,Landmark judgments have shaped policy implementation across various sectors.
+law_government,policy_regulation,"""County governments develop and implement policies within their devolved functions under the County Governments Act."
+law_government,policy_regulation,Each county assembly passes legislation specific to local needs and circumstances.
+law_government,policy_regulation,County executives implement these policies through respective departments.
+law_government,policy_regulation,This decentralized approach allows tailored policy solutions.
+law_government,policy_regulation,"""The Public Finance Management Act 2012 regulates fiscal policies and budget implementation."
+law_government,policy_regulation,"It establishes frameworks for revenue collection, expenditure control, and debt management."
+law_government,policy_regulation,The National Treasury develops fiscal policies within this regulatory framework.
+law_government,policy_regulation,Compliance ensures macroeconomic stability and sustainable development.
+law_government,policy_regulation,"""The Ethics and Anti-Corruption Commission regulates ethical conduct in public service."
+law_government,policy_regulation,It develops anti-corruption policies and monitors compliance across government institutions.
+law_government,policy_regulation,The commission investigates policy implementation breaches and recommends corrective measures.
+law_government,policy_regulation,This regulatory body promotes integrity in public service delivery.
+law_government,policy_regulation,"""The Central Bank of Kenya regulates monetary policy and financial sector stability."
+law_government,policy_regulation,"Through the Monetary Policy Committee, it sets interest rates to control inflation."
+law_government,policy_regulation,Banking regulations ensure financial system stability and consumer protection.
+law_government,policy_regulation,These policies support economic growth and price stability.
+law_government,policy_regulation,"""The Kenya Bureau of Standards develops and enforces product quality regulations."
+law_government,policy_regulation,It establishes Kenyan Standards for various products and services.
+law_government,policy_regulation,Manufacturers must comply with these standards before market entry.
+law_government,policy_regulation,This regulatory framework protects consumers and promotes fair trade.
+law_government,policy_regulation,"""The National Environmental Management Authority regulates environmental policies and conservation efforts."
+law_government,policy_regulation,It enforces environmental impact assessment regulations for development projects.
+law_government,policy_regulation,NEMA monitors compliance with environmental standards and guidelines.
+law_government,policy_regulation,These regulations promote sustainable development and ecosystem protection.
+law_government,policy_regulation,"""The Communications Authority of Kenya regulates telecommunications and broadcasting sectors."
+law_government,policy_regulation,It develops spectrum management policies and licensing frameworks.
+law_government,policy_regulation,The authority ensures fair competition and quality service delivery.
+law_government,policy_regulation,Regulatory guidelines protect consumer interests in the communications sector.
+law_government,policy_regulation,"""The Energy and Petroleum Regulatory Authority oversees energy sector policies and regulations."
+law_government,policy_regulation,It licenses energy service providers and sets tariff structures.
+law_government,policy_regulation,Safety standards and technical regulations ensure reliable energy supply.
+law_government,policy_regulation,These policies support Kenya's energy security and transition to renewable sources.
+law_government,policy_regulation,"""The Kenya Civil Aviation Authority regulates air transport policies and safety standards."
+law_government,policy_regulation,It develops aviation regulations aligned with international conventions.
+law_government,policy_regulation,Aircraft certification and airport operations follow strict regulatory protocols.
+law_government,policy_regulation,"These measures ensure air travel safety and security."","
+law_government,policy_regulation,"""The Insurance Regulatory Authority develops and implements insurance sector policies."
+law_government,policy_regulation,It licenses insurance companies and regulates premium rates.
+law_government,policy_regulation,Consumer protection measures ensure fair claims settlement processes.
+law_government,policy_regulation,These regulations maintain stability in the insurance industry.
+law_government,policy_regulation,"""The Retirement Benefits Authority regulates pension schemes and retirement benefits policies."
+law_government,policy_regulation,It registers and supervises retirement benefits schemes nationwide.
+law_government,policy_regulation,Investment guidelines protect members' contributions and ensure fund growth.
+law_government,policy_regulation,These regulations secure retirement income for Kenyan workers.
+law_government,policy_regulation,"""The Capital Markets Authority regulates securities markets and investment policies."
+law_government,policy_regulation,It licenses stockbrokers and approves public offerings.
+law_government,policy_regulation,Investor protection regulations maintain market integrity and transparency.
+law_government,policy_regulation,These policies support capital formation and economic development.
+law_government,policy_regulation,"""The Kenya Revenue Authority implements tax policies and revenue collection regulations."
+law_government,policy_regulation,It administers various tax laws including Income Tax and VAT Acts.
+law_government,policy_regulation,Tax compliance measures ensure equitable revenue collection.
+law_government,policy_regulation,These regulations fund government operations and public services.
+law_government,policy_regulation,"""The National Police Service Commission regulates police service policies and human resource management."
+law_government,policy_regulation,"It oversees recruitment, promotion, and discipline within the police service."
+law_government,policy_regulation,Professional standards ensure effective law enforcement.
+law_government,policy_regulation,These regulations enhance police accountability and service delivery.
+law_government,policy_regulation,"""The Teachers Service Commission regulates teacher management policies and professional standards."
+law_government,policy_regulation,"It registers, employs, and disciplines teachers in public schools."
+law_government,policy_regulation,Teacher development programs enhance education quality.
+law_government,policy_regulation,These regulations maintain teaching standards nationwide.
+law_government,policy_regulation,"""The Council of Governors coordinates policy implementation among county governments."
+law_government,policy_regulation,It facilitates inter-county collaboration on cross-border issues.
+law_government,policy_regulation,The council advises national government on county governance matters.
+law_government,policy_regulation,This coordination mechanism ensures policy harmony across counties.
+law_government,policy_regulation,"""The Public Service Commission regulates human resource policies in civil service."
+law_government,policy_regulation,"It oversees recruitment, promotion, and discipline of public officers."
+law_government,policy_regulation,Merit-based systems ensure competent public service delivery.
+law_government,policy_regulation,These regulations promote efficiency in government operations.
+law_government,policy_regulation,"""The National Land Commission regulates land policies and administration systems."
+law_government,policy_regulation,It manages public land and advises on land use planning.
+law_government,policy_regulation,Land registration and titling follow established regulatory procedures.
+law_government,policy_regulation,These policies address historical land injustices and promote secure tenure.
+law_government,policy_regulation,"""The Kenya Medical Practitioners and Dentists Council regulates healthcare professionals and medical practice."
+law_government,policy_regulation,It licenses medical practitioners and sets professional standards.
+law_government,policy_regulation,Continuous professional development ensures quality healthcare services.
+law_government,policy_regulation,These regulations protect patient safety and rights.
+law_government,policy_regulation,"""The Nursing Council of Kenya regulates nursing education and practice standards."
+law_government,policy_regulation,It accredits nursing training institutions and licenses practitioners.
+law_government,policy_regulation,Scope of practice guidelines define nursing responsibilities.
+law_government,policy_regulation,These regulations maintain healthcare quality and professional ethics.
+law_government,policy_regulation,"""The Clinical Officers Council regulates clinical officers' training and practice."
+law_government,policy_regulation,It sets curriculum standards for clinical medicine programs.
+law_government,policy_regulation,Licensing requirements ensure competent primary healthcare provision.
+law_government,policy_regulation,These regulations support universal health coverage implementation.
+law_government,policy_regulation,"""The Pharmacy and Poisons Board regulates pharmaceutical products and practice."
+law_government,policy_regulation,It licenses pharmacists and registers medicinal products.
+law_government,policy_regulation,Drug safety monitoring protects public health.
+law_government,policy_regulation,These regulations ensure access to quality medicines.
+law_government,policy_regulation,"""The Kenya Plant Health Inspectorate Service regulates agricultural inputs and produce quality."
+law_government,policy_regulation,"It certifies seeds, fertilizers, and pesticides for market distribution."
+law_government,policy_regulation,Phytosanitary measures prevent pest and disease spread.
+law_government,policy_regulation,These policies support agricultural productivity and food security.
+law_government,policy_regulation,"""The Agriculture and Food Authority regulates crop development and market policies."
+law_government,policy_regulation,It implements strategies for key agricultural value chains.
+law_government,policy_regulation,Market regulations stabilize producer prices and ensure fair trade.
+law_government,policy_regulation,These policies enhance agricultural sector contribution to economy.
+law_government,policy_regulation,"""The Kenya Dairy Board regulates dairy industry policies and market operations."
+law_government,policy_regulation,It licenses milk processors and sets quality standards.
+law_government,policy_regulation,Market regulations ensure stable milk prices for producers and consumers.
+law_government,policy_regulation,These policies support dairy sector development and nutrition security.
+law_government,policy_regulation,"""The Coffee Directorate regulates coffee industry policies and marketing systems."
+law_government,policy_regulation,It licenses coffee dealers and sets quality grading standards.
+law_government,policy_regulation,Auction systems ensure transparent price discovery.
+law_government,policy_regulation,These regulations revive coffee production and farmer incomes.
+law_government,policy_regulation,"""The Tea Directorate regulates tea industry policies and value chain operations."
+law_government,policy_regulation,It licenses tea factories and monitors production standards.
+law_government,policy_regulation,Tea auction regulations ensure competitive pricing.
+law_government,policy_regulation,These policies maintain Kenya's position in global tea markets.
+law_government,policy_regulation,"""The National Construction Authority regulates building and construction industry standards."
+law_government,policy_regulation,It registers contractors and monitors construction projects.
+law_government,policy_regulation,Building code enforcement ensures structural safety and quality.
+law_government,policy_regulation,These regulations promote orderly urban development.
+law_government,policy_regulation,"""The National Transport and Safety Authority regulates road transport policies and safety standards."
+law_government,policy_regulation,It licenses public service vehicles and drivers.
+law_government,policy_regulation,Traffic management regulations reduce road accidents.
+law_government,policy_regulation,These policies enhance road safety and transport efficiency.
+law_government,policy_regulation,"""The Kenya Ports Authority regulates maritime policies and port operations."
+law_government,policy_regulation,It implements port security and safety regulations.
+law_government,policy_regulation,Cargo handling procedures ensure efficient trade facilitation.
+law_government,policy_regulation,These policies support regional trade and economic integration.
+law_government,policy_regulation,"""The Kenya Railways Corporation regulates railway transport policies and operations."
+law_government,policy_regulation,It implements safety standards for railway infrastructure and services.
+law_government,policy_regulation,Freight and passenger service regulations enhance transport connectivity.
+law_government,policy_regulation,These policies support railway network development.
+law_government,policy_regulation,"""The Water Resources Authority regulates water resource management policies."
+law_government,policy_regulation,It issues water use permits and monitors resource allocation.
+law_government,policy_regulation,Catchment conservation regulations protect water sources.
+law_government,policy_regulation,These policies ensure sustainable water resource development.
+law_government,policy_regulation,"""The Water Services Regulatory Board regulates water service provision policies."
+law_government,policy_regulation,It sets water quality standards and tariff guidelines.
+law_government,policy_regulation,Service provision regulations ensure equitable water access.
+law_government,policy_regulation,These policies support water sector reform objectives.
+law_government,policy_regulation,"""The National Museums of Kenya regulates heritage conservation policies and management."
+law_government,policy_regulation,It protects cultural heritage sites and manages museum collections.
+law_government,policy_regulation,Antiquities regulations prevent illegal trade in cultural artifacts.
+law_government,policy_regulation,These policies preserve Kenya's cultural heritage.
+law_government,policy_regulation,"""The Kenya Copyright Board regulates intellectual property rights policies."
+law_government,policy_regulation,It registers copyright works and enforces protection measures.
+law_government,policy_regulation,Anti-piracy regulations protect creative industry interests.
+law_government,policy_regulation,These policies encourage innovation and cultural development.
+law_government,policy_regulation,"""The Anti-Counterfeit Agency regulates anti-counterfeiting policies and enforcement."
+law_government,policy_regulation,It investigates counterfeit goods and prosecutes offenders.
+law_government,policy_regulation,Border control measures prevent counterfeit product entry.
+law_government,policy_regulation,These regulations protect consumers and legitimate businesses.
+law_government,policy_regulation,"""The Kenya National Commission on Human Rights monitors human rights policy implementation."
+law_government,policy_regulation,It investigates human rights violations and recommends remedial actions.
+law_government,policy_regulation,Public education programs promote human rights awareness.
+law_government,policy_regulation,These regulations strengthen human rights protection mechanisms.
+law_government,policy_regulation,"""The National Gender and Equality Commission regulates gender equality policies and implementation."
+law_government,policy_regulation,It monitors compliance with gender mainstreaming requirements.
+law_government,policy_regulation,Affirmative action regulations promote women's representation.
+law_government,policy_regulation,These policies address historical gender disparities.
+law_government,policy_regulation,"""The Commission on Administrative Justice regulates administrative justice and service delivery."
+law_government,policy_regulation,It investigates maladministration in public institutions.
+law_government,policy_regulation,Service charter implementation ensures citizen-centric service delivery.
+law_government,policy_regulation,These regulations enhance public service accountability.
+law_government,policy_regulation,"""The Independent Policing Oversight Authority regulates police conduct and accountability mechanisms."
+law_government,policy_regulation,It investigates complaints against police officers.
+law_government,policy_regulation,Police reform policies enhance professional conduct.
+law_government,policy_regulation,These regulations build public trust in law enforcement.
+law_government,policy_regulation,"""The Witness Protection Agency regulates witness protection policies and programs."
+law_government,policy_regulation,It provides security for witnesses in serious cases.
+law_government,policy_regulation,Protection protocols ensure witness cooperation in justice processes.
+law_government,policy_regulation,These regulations support effective crime prosecution.
+law_government,policy_regulation,"""The National AIDS Control Council regulates HIV/AIDS prevention and control policies."
+law_government,policy_regulation,It coordinates multi-sectoral response to HIV epidemic.
+law_government,policy_regulation,Prevention programs reduce new infections.
+law_government,policy_regulation,These policies manage public health impact of HIV/AIDS.
+law_government,policy_regulation,"""The National Council for Population and Development regulates population policy implementation."
+law_government,policy_regulation,It monitors demographic trends and their development implications.
+law_government,policy_regulation,Family planning programs manage population growth.
+law_government,policy_regulation,These policies support sustainable development planning.
+law_government,policy_regulation,"""The National Council for Children's Services regulates child protection policies and programs."
+law_government,policy_regulation,It implements children's rights legislation and guidelines.
+law_government,policy_regulation,Child welfare regulations protect vulnerable children.
+law_government,policy_regulation,These policies ensure child development and protection.
+law_government,policy_regulation,"""The National Employment Authority regulates labor market policies and employment services."
+law_government,policy_regulation,It maintains employment database and facilitates job matching.
+law_government,policy_regulation,Labor exchange regulations reduce unemployment.
+law_government,policy_regulation,These policies support productive employment creation.
+law_government,policy_regulation,"""The National Industrial Training Authority regulates industrial training policies and standards."
+law_government,policy_regulation,It develops occupational standards and certifies skills.
+law_government,policy_regulation,Apprenticeship regulations enhance workforce competence.
+law_government,policy_regulation,These policies address skills gaps in various sectors.
+law_government,policy_regulation,"""The Kenya Bureau of Statistics regulates statistical policies and data management."
+law_government,policy_regulation,It coordinates national statistical system and data collection.
+law_government,policy_regulation,Data quality regulations ensure reliable statistics.
+law_government,policy_regulation,These policies support evidence-based decision making.
+law_government,policy_regulation,"""The Geothermal Development Company regulates geothermal energy development policies."
+law_government,policy_regulation,It explores and assesses geothermal resources.
+law_government,policy_regulation,Resource utilization regulations promote renewable energy development.
+law_government,policy_regulation,These policies support Kenya's green energy transition.
+law_government,policy_regulation,"""The Kenya Electricity Generating Company regulates power generation policies and operations."
+law_government,policy_regulation,It develops and maintains power generation facilities.
+law_government,policy_regulation,Grid code compliance ensures reliable electricity supply.
+law_government,policy_regulation,These policies support national electrification goals.
+law_government,policy_regulation,"""The Kenya Power and Lighting Company regulates electricity distribution policies and services."
+law_government,policy_regulation,It manages electricity distribution network and retail supply.
+law_government,policy_regulation,Tariff regulations balance consumer and utility interests.
+law_government,policy_regulation,These policies enhance electricity access nationwide.
+law_government,policy_regulation,"""The Kenya Nuclear Electricity Board regulates nuclear energy development policies."
+law_government,policy_regulation,It develops legal and regulatory framework for nuclear power.
+law_government,policy_regulation,Safety and security regulations protect public and environment.
+law_government,policy_regulation,"These policies explore alternative energy sources."","
+law_government,policy_regulation,"""The Kenya Wildlife Service regulates wildlife conservation policies and management."
+law_government,policy_regulation,It protects wildlife in national parks and reserves.
+law_government,policy_regulation,These policies promote wildlife-based tourism development.
+law_government,policy_regulation,"""The Kenya Forest Service regulates forest conservation and management policies."
+law_government,policy_regulation,It manages public forests and promotes agroforestry.
+law_government,policy_regulation,These policies enhance forest cover and ecosystem services.
+law_government,policy_regulation,"""The National Oil Corporation of Kenya regulates petroleum exploration and development policies."
+law_government,policy_regulation,It manages government interests in petroleum projects.
+law_government,policy_regulation,Local content regulations promote national participation.
+law_government,policy_regulation,These policies enhance energy security and resource benefits.
+law_government,policy_regulation,"""The Kenya Maritime Authority regulates maritime safety and security policies."
+law_government,policy_regulation,It implements international maritime conventions in Kenyan waters.
+law_government,policy_regulation,Ship registration and inspection regulations ensure maritime safety.
+law_government,policy_regulation,These policies support blue economy development.
+law_government,policy_regulation,"""The Competition Authority of Kenya regulates market competition policies and practices."
+law_government,policy_regulation,It investigates anti-competitive conduct and merger control.
+law_government,policy_regulation,Market regulation ensures fair business practices.
+law_government,policy_regulation,"These policies promote consumer welfare and market efficiency."","
+law_government,policy_regulation,"""The Micro and Small Enterprises Authority regulates MSE development policies and programs."
+law_government,policy_regulation,It implements MSE support initiatives and capacity building.
+law_government,policy_regulation,Business development services enhance MSE competitiveness.
+law_government,policy_regulation,These policies promote entrepreneurship and job creation.
+law_government,policy_regulation,"""The Kenya Trade Network Agency regulates trade facilitation policies and systems."
+law_government,policy_regulation,It implements electronic single window system for trade.
+law_government,policy_regulation,Customs procedures regulations reduce trade transaction costs.
+law_government,policy_regulation,These policies enhance Kenya's trade competitiveness.
+law_government,policy_regulation,"""The Kenya Investment Authority regulates investment promotion policies and incentives."
+law_government,policy_regulation,It facilitates domestic and foreign investment processes.
+law_government,policy_regulation,Investment protection regulations secure investor rights.
+law_government,policy_regulation,These policies attract productive investments into Kenya.
+law_government,policy_regulation,"""The Export Processing Zones Authority regulates EPZ operations and development policies."
+law_government,policy_regulation,It licenses EPZ enterprises and monitors compliance.
+law_government,policy_regulation,Export promotion regulations enhance manufactured exports.
+law_government,policy_regulation,These policies support export-led industrialization.
+law_government,policy_regulation,"""The Special Economic Zones Authority regulates SEZ development and operations."
+law_government,policy_regulation,It designs SEZ policies and implementation frameworks.
+law_government,policy_regulation,Investment incentive regulations attract anchor investors.
+law_government,policy_regulation,These policies promote industrial cluster development.
+law_government,policy_regulation,"""The Kenya National Trading Corporation regulates strategic food reserve policies."
+law_government,policy_regulation,It manages national food reserve for food security.
+law_government,policy_regulation,Price stabilization regulations protect consumers and producers.
+law_government,policy_regulation,These policies ensure food availability during emergencies.
+law_government,policy_regulation,"""The National Hospital Insurance Fund regulates health insurance policies and coverage."
+law_government,policy_regulation,It implements social health insurance scheme.
+law_government,policy_regulation,Contribution regulations ensure sustainable healthcare financing.
+law_government,policy_regulation,These policies support universal health coverage.
+law_government,policy_regulation,"""The National Social Security Fund regulates social security policies and benefits."
+law_government,policy_regulation,It manages pension scheme for private sector workers.
+law_government,policy_regulation,Contribution compliance ensures retirement security.
+law_government,policy_regulation,These policies provide social protection for workers.
+law_government,policy_regulation,"""The Higher Education Loans Board regulates student financing policies and programs."
+law_government,policy_regulation,It administers loans and scholarships for university education.
+law_government,policy_regulation,Recovery regulations ensure fund sustainability.
+law_government,policy_regulation,These policies promote equitable access to higher education.
+law_government,policy_regulation,"""The Kenya Universities and Colleges Central Placement Service regulates university placement policies."
+law_government,policy_regulation,It coordinates student placement to universities and colleges.
+law_government,policy_regulation,Admission regulations ensure fair access to higher education.
+law_government,policy_regulation,These policies implement affirmative action in education.
+law_government,policy_regulation,"""The Technical and Vocational Education and Training Authority regulates TVET policies and standards."
+law_government,policy_regulation,It accredits TVET institutions and programs.
+law_government,policy_regulation,Skills certification regulations enhance workforce quality.
+law_government,policy_regulation,These policies address technical skills development needs.
+law_government,policy_regulation,"""The Kenya Institute of Curriculum Development regulates curriculum policies and development."
+law_government,policy_regulation,It designs and reviews education curricula across levels.
+law_government,policy_regulation,Quality assurance regulations maintain education standards.
+law_government,policy_regulation,These policies implement competency-based curriculum reforms.
+law_government,policy_regulation,"""The Kenya National Examinations Council regulates examination policies and administration."
+law_government,policy_regulation,It develops and administers national examinations.
+law_government,policy_regulation,Examination security regulations maintain assessment integrity.
+law_government,policy_regulation,These policies ensure credible education certification.
+law_government,policy_regulation,"""The Commission for University Education regulates university education policies and standards."
+law_government,policy_regulation,It accredits universities and academic programs.
+law_government,policy_regulation,Quality audit regulations maintain higher education standards.
+law_government,policy_regulation,These policies ensure quality university education.
+law_government,policy_regulation,"""The Media Council of Kenya regulates media ethics and professional standards."
+law_government,policy_regulation,It accredits journalists and handles public complaints.
+law_government,policy_regulation,Code of conduct regulations promote responsible journalism.
+law_government,policy_regulation,"These policies maintain media freedom with responsibility."","
+law_government,policy_regulation,"""The Film Classification Board regulates film and broadcast content policies."
+law_government,policy_regulation,It classifies film content for appropriate audience viewing.
+law_government,policy_regulation,Content guidelines protect cultural values and children.
+law_government,policy_regulation,These policies balance creative expression with public interest.
+law_government,policy_regulation,"""The Sports Kenya regulates sports development policies and programs."
+law_government,policy_regulation,It develops sports infrastructure and talent identification systems.
+law_government,policy_regulation,Sports promotion regulations enhance participation.
+law_government,policy_regulation,These policies develop sports as economic and social activity.
+law_government,policy_regulation,"""The Kenya Academy of Sports regulates sports science and talent development policies."
+law_government,policy_regulation,It implements athlete development programs and research.
+law_government,policy_regulation,Training regulations enhance sports performance.
+law_government,policy_regulation,"These policies support excellence in competitive sports."""
