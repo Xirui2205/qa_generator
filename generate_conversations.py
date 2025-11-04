@@ -266,7 +266,9 @@ def generate_dataset(
     jobs = list(iter_conversation_jobs(topics))
     random.shuffle(jobs)
 
-    LOGGER.info("Generating %s conversations", len(jobs))
+    total_jobs = len(jobs)
+    LOGGER.info("Generating %s conversations", total_jobs)
+    completed = 0
 
     with output_path.open("w", encoding="utf-8") as output_fh:
         with ThreadPoolExecutor(max_workers=concurrency) as executor:
@@ -310,6 +312,13 @@ def generate_dataset(
                         write_conversation(
                             output_fh, conversation_id, topic.topic_id, conversation
                         )
+                        completed += 1
+                        LOGGER.info(
+                            "[%s] %s/%s",
+                            topic.topic_id,
+                            completed,
+                            total_jobs,
+                        )
                     elif conversation is not None:
                         LOGGER.error(
                             "Conversation %s for topic '%s' returned %s turns instead of %s",
@@ -317,6 +326,21 @@ def generate_dataset(
                             topic.topic_id,
                             len(conversation),
                             num_turns,
+                        )
+                        completed += 1
+                        LOGGER.info(
+                            "[%s] %s/%s (failed)",
+                            topic.topic_id,
+                            completed,
+                            total_jobs,
+                        )
+                    else:
+                        completed += 1
+                        LOGGER.info(
+                            "[%s] %s/%s (failed)",
+                            topic.topic_id,
+                            completed,
+                            total_jobs,
                         )
 
                     try:
